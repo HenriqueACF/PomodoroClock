@@ -97,6 +97,7 @@ class App extends React.Component {
     return (
       <main>
         <h2>Pomodoro Clock</h2>
+        <iframe src="https://giphy.com/embed/QDJPrcQzXRAs0" width="480" height="439" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
         <section className="interval-length-container">
           <BreakInterval  
             isPlay={this.state.isPlay}
