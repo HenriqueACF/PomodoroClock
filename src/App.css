@@ -40,6 +40,7 @@ button{
   cursor: pointer;
   color: #eee;
   width: 70px;
+  font-weight: bold;
   border-radius: 15px;
 }
 button:hover{
