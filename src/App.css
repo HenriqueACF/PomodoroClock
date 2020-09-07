@@ -1,3 +1,6 @@
+html{
+  background-color: #B0C4DE;
+}
 main{
   display: flex;
   flex-direction: column;
@@ -38,6 +41,19 @@ button{
   color: #eee;
   width: 70px;
   border-radius: 15px;
+}
+button:hover{
+  padding: 5px 10px;
+  margin: 0 10px;
+  height: 25px;
+  background-color: #19222c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #eee;
+  font-weight: bold;
+  width: 70px;
+  border-radius: 15px
 }
 
 button:disabled{
